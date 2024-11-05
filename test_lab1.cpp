@@ -1,25 +1,20 @@
 #include <gtest/gtest.h>
 #include "../lab1.cpp"
 
-// Пример теста
 TEST(Lab1Test, ExampleTest) {
-    // Ваш тест здесь
-    ASSERT_TRUE(true); // Пример простого теста
+    ASSERT_TRUE(true); 
 }
 
-// Тест для проверки строки "12:00 pm"
 TEST(Lab1Test, TestString1200PM) {
     char s[9] { "12:00 pm"};
     ASSERT_STREQ(s, "12:00 pm");
 }
 
-// Тест для проверки строки "08:30 am"
 TEST(Lab1Test, TestString0830AM) {
     char s[9] { "8:30 am"};
     ASSERT_STREQ(s, "8:30 am");
 }
 
-// Тест для проверки строки "10:12 am"
 TEST(Lab1Test, TestString1012AM) {
     char s[9] { "10:12 am"};
     ASSERT_STREQ(s, "10:12 am");

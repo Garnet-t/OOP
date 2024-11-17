@@ -1,0 +1,13 @@
+//почему-то странный без target gtest
+cmake_minimum_required(VERSION 3.10)
+project(test_lab1)
+
+set(CMAKE_CXX_STANDARD 11)
+
+# Google Test
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIRS})
+
+# исполняемый файл для тестов
+add_executable(test_lab1 test_lab1.cpp)
+target_link_libraries(test_lab1 ${GTEST_LIBRARIES} pthread MyProjectLib)

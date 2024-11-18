@@ -1,0 +1,7 @@
+/mnt/c/Users/79152/cpp4/MyProject/CMakeFiles/MyProjectLib.dir
+/mnt/c/Users/79152/cpp4/MyProject/CMakeFiles/MyProject.dir
+/mnt/c/Users/79152/cpp4/MyProject/CMakeFiles/edit_cache.dir
+/mnt/c/Users/79152/cpp4/MyProject/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/79152/cpp4/MyProject/test/CMakeFiles/test_lab1.dir
+/mnt/c/Users/79152/cpp4/MyProject/test/CMakeFiles/edit_cache.dir
+/mnt/c/Users/79152/cpp4/MyProject/test/CMakeFiles/rebuild_cache.dir

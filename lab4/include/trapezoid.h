@@ -1,7 +1,7 @@
 #ifndef TRAPEZOID
 #define TRAPEZOID
 
-#include "Figure.hpp"
+#include "Figure.h"
 
 template<typename T>
 class Trapezoid final : public Figure<T> {

@@ -1,7 +1,7 @@
 #ifndef SQUARE
 #define SQUARE
 
-#include "Figure.hpp"
+#include "Figure.h"
 
 template<typename T>
 class Square final : public Figure<T> {

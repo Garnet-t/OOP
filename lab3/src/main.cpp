@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "../include/pentagon.hpp"
+#include "../include/pentagon.h"
 
 void addFigureMenu(std::vector<Figure*>& Figures) {
     char command;
@@ -20,14 +20,14 @@ void addFigureMenu(std::vector<Figure*>& Figures) {
                 fig = new Pentagon();
                 break;
             default:
-                std::cout << "Неверный символ" << std::endl;
+                std::cout << "Wrong symbol -program exit" << std::endl;
                 return;
         }
         
-        std::cout << "Введите координаты вершин фигуры:\n";
+        std::cout << "Vv coordinats:\n";
         std::cin >> *fig;
         Figures.push_back(fig);
-        std::cout << "Фигура успешно добавлена.\n";
+        std::cout << "Figure is added.\n";
     }
 }
 

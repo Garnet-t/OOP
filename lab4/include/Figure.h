@@ -2,7 +2,7 @@
 #define FIGURE_H
 
 #include <iostream>
-#include "Point.hpp"
+#include "Point.h"
 
 template<typename T>
 class Figure {
